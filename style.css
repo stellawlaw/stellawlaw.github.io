@@ -1,9 +1,22 @@
 *{
     margin:0px;
-    padding:0px;
+    padding:0px;   
+}
+
+
+
+
+html{
     font-family: sans-serif;
 }
-figure img{
+
+.contact{
+    display: flex;
+    justify-content: center;
+
+}
+
+img{
     border-radius: 20px;
 }
 

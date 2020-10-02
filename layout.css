@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+html{
     background-image: url("./WhiteBricksBG.jpg");
     background-size: cover;
 }
@@ -28,13 +28,18 @@ body{
     justify-content: flex-start;
 }
 
-header nav ul{
+/* header nav ul{
     text-align: right;
-}
+} */
 
 header nav ul li{
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center
+    
+    
+
 }
+
 
 figure{
     margin: 2rem 0;
