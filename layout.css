@@ -4,41 +4,51 @@
     box-sizing: border-box;
 }
 
-
 body{
     background-image: url("./WhiteBricksBG.jpg");
     background-size: cover;
 }
 
 .container{
+    background-color: rgba(153, 150, 150, 0.452);
     display: grid;
     grid-template-rows: 150px auto;
     margin: 0px auto;
     max-width: 1000px;
     width: 90%;
 }
+/* .menu{
+    display: flex;
+    justify-content: flex-end;
+} */
+
 
 .main-title{
     display: flex;
     justify-content: flex-start;
-
 }
 
-.menu{
- display: flex;
- justify-content: flex-end;
+header nav ul{
+    text-align: right;
 }
 
 header nav ul li{
     display: inline-block;
-    margin-left: 0.5rem;
-    margin-top: 0.75rem;
+}
+
+figure{
+    margin: 2rem 0;
+}
+figure img{
+    width: 50%;
+
+}
+footer{
+    display: block;
+    text-align: center;
 }
 
 
-/* .main-content{
-display: grid;
 
-} */
 
 
