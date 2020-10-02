@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Portfolio</title>
+    <title>Stella Law- Software Developer</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./layout.css">
 
@@ -13,8 +13,8 @@
 <body>
     <div class="container">
         <header class="header" id="bio-header">
-            <h1>Stella Law</h1>
-            <nav>
+            <h1 class="main-title">Stella Law</h1>
+            <nav class="menu">
                 <ul>
                     <li> <a href="#about-me">Learn About me</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -22,12 +22,15 @@
                 </ul>
             </nav>
         </header>
-        <main class="main content">
+
+        <main class="main-content">
             <div class="myinfo">
 
                 <section class="about" id="about-me">
                     <h2>About Me</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    <p class="bio">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut
                         aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -35,28 +38,11 @@
                         dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
                         qui officia
                         deserunt mollit anim id est laborum.</p>
-
-                    <figure class="bio-image">
-                        <img src="./NewOrleans.jpg" alt="bio picture">
-                    </figure>
                     <a href="#contact">Contact Me</a>
                 </section>
 
-
-
-
-
-
                 <section class="projects" id="projects">
-                    <h2>Projects</h2>
-
-                    <article class="github-projects">
-                        <h4>Virtual Pets Amok</h4>
-                        <p>Insert Image</p>
-                        <p>Insert Link</p>
-                        <p>Technologies Used: Java</p>
-                    </article>
-
+                    <h2>Projects:</h2>
                     <article class="github-projects">
                         <h4>Virtual Pet Shelter</h4>
                         <img src="./VirtualPetShelter.jpg" alt="Virtual Pet Shelter Photo">
@@ -70,16 +56,24 @@
                     <article class="github-projects">
                         <h4>FizzBuzzQix Kata</h4>
                         <img src="./FizzBuzzQix.jpg" alt="FizzBuzzQiz Photo">
-                        <p>Kata that involves writing TDD tests and code.
-                        <ul>
+                        <p>Kata that involves writing TDD tests and code to recreate a variation of the childhood game
+                            "FizzBuzz".
+                        <!-- <ul>
                             <li>Given an integer, return a String representation of that integer</li>
                             <li>Given an integer that is a multiple of 3, return <em>Fizz</em></li>
                             <li>Given an integer that is a multiple of 5, return <em>Buzz</em></li>
                             <li>Given an integer that is a multiple of 7, return <em>Qix</em></li>
                             <li>If multiple words are used, the system returns them in order of <em>Fizz</em>,
-                                <em>Buzz</em>, then <em>Qix</em.</li>
-                        </ul>
+                                <em>Buzz</em>, then <em>Qix</em.< /li>
+                        </ul> -->
                         <a href="https://github.com/stellawlaw/FizzBuzzQix">See Project</a>
+                        <p>Technologies Used: Java</p>
+                    </article>
+
+                    <article class="github-projects">
+                        <h4>Virtual Pets Amok</h4>
+                        <p>Insert Image</p>
+                        <p>Insert Link</p>
                         <p>Technologies Used: Java</p>
                     </article>
 
@@ -93,7 +87,9 @@
 
                 </section>
             </div>
-
+            <figure class="bio-image">
+                <img src="./NewOrleans.jpg" alt="bio picture">
+            </figure>
         </main>
 
     </div>

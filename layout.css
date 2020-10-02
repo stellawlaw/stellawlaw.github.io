@@ -5,4 +5,40 @@
 }
 
 
+body{
+    background-image: url("./WhiteBricksBG.jpg");
+    background-size: cover;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 150px auto;
+    margin: 0px auto;
+    max-width: 1000px;
+    width: 90%;
+}
+
+.main-title{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.menu{
+ display: flex;
+ justify-content: flex-end;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+
+/* .main-content{
+display: grid;
+
+} */
+
 
