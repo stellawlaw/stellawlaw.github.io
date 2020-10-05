@@ -13,11 +13,7 @@ html{
     background-color: rgba(153, 150, 150, 0.452);
 }
 
-.skills-items li{
-    list-style: none;   
-}
-
-.menu-items li{
+.menu li{
     display: inline;
     list-style: none;
 }
@@ -25,10 +21,20 @@ html{
 h1{
     text-align: center;
     font-size: 3rem;   
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
-.bio-image img{
+h2{
+    text-align: center;
+}
+.description{
+    margin-top: 1rem;
+}
+
+.technologies{
+    margin-top: 1rem;
+}
+.virtualpetshelter-image img{
     border-radius: 15px;
     width: 100%;
 }
@@ -37,15 +43,5 @@ h1{
     border-radius: 5px;
     width: 5%;
 }
-
-
-
-
-
-
-
-
-
-
 
 

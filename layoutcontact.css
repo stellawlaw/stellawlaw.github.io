@@ -5,8 +5,9 @@
 }
 
 .container{
-    display: grid;
-    grid-template-rows: 50px auto;
+    display:grid;
+    grid-template-rows: 200px 150px auto;
+    text-align: center;
     margin: 2rem auto;
     max-width: 1000px;
     width: 90%;
@@ -21,12 +22,8 @@
     margin-right: 1rem;
 }
 
-.main-content{
-    display: grid;
-    grid-template-rows: 200px 350px;
-    grid-template-columns: 500px 300px;
-    gap: 25px;
-    margin-left: 5rem;
+.contact img{
+    margin-top: 10rem;
 }
 
 footer{
@@ -35,11 +32,10 @@ footer{
     margin-top: 3rem;
 }
 
-.socialmedia{
-    text-align: center;
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30rem;
 }
 
-.smallcopyright{
-    text-align: center;
-}
 
