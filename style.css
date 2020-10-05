@@ -2,15 +2,23 @@
     margin:0px;
     padding:0px;
     font-family: 'Fira Sans', sans-serif; 
+    color: var(--primary);
 }
-
 html{
     background-image: url("./WhiteBricksBG.jpg");
     background-size: 2000px;
+    
+}
+
+:root{
+    --primary: #142329;
+    --secondary: #2B7A78;
+    --Tertiary: #3AAFA9;
 }
 
 .container{
     background-color: rgba(153, 150, 150, 0.452);
+
 }
 
 .skills-items li{
@@ -20,15 +28,15 @@ html{
 .menu-items li{
     display: inline;
     list-style: none;
+    
 }
 
-
 .menu-items :visited{
-    color: rgb(190, 109, 28)
+    color: var(--secondary);
 }
 
 .menu-items :hover{
-    color: rgb(35, 72, 175);
+    color: var(--Tertiary);
 }
 
 h1{

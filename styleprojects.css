@@ -2,11 +2,19 @@
     margin:0px;
     padding:0px;
     font-family: 'Fira Sans', sans-serif; 
+    color: var(--primary);
 }
 
 html{
     background-image: url("./WhiteBricksBG.jpg");
     background-size: 2000px;
+}
+
+:root{
+    --primary: #142329;
+    --secondary: #2B7A78;
+    --Tertiary: #3AAFA9;
+    
 }
 
 .container{
@@ -19,11 +27,11 @@ html{
 }
 
 .menu :visited{
-    color: rgb(190, 109, 28)
+    color: var(--primary);
 }
 
 .menu :hover{
-    color: rgb(35, 72, 175);
+    color: var(--secondary);
 }
 
 h1{
