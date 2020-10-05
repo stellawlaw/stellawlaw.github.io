@@ -18,6 +18,14 @@ html{
     list-style: none;
 }
 
+.menu :visited{
+    color: rgb(190, 109, 28)
+}
+
+.menu :hover{
+    color: rgb(35, 72, 175);
+}
+
 h1{
     text-align: center;
     font-size: 3rem;   

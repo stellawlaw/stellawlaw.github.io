@@ -22,6 +22,15 @@ html{
     list-style: none;
 }
 
+
+.menu-items :visited{
+    color: rgb(190, 109, 28)
+}
+
+.menu-items :hover{
+    color: rgb(35, 72, 175);
+}
+
 h1{
     text-align: center;
     font-size: 3rem;   

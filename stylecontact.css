@@ -15,6 +15,14 @@ html{
     background-color: rgba(153, 150, 150, 0.452);
 }
 
+.menu :visited{
+    color: rgb(190, 109, 28)
+}
+
+.menu :hover{
+    color: rgb(35, 72, 175);
+}
+
 .menu li{
     display: inline;
     list-style: none;
