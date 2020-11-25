@@ -1,23 +1,29 @@
 *{
     margin:0px;
     padding:0px;
-    font-family: 'Fira Sans', sans-serif; 
-    color: var(--primary);
+  
 }
 html{
     background-image: url("./WhiteBricksBG.jpg");
+ 
     background-size: 2000px;
+    color: var(--One-color);
+    font-family: 'Fira Sans', sans-serif; 
     
 }
 
 :root{
-    --primary: #142329;
-    --secondary: #2B7A78;
-    --Tertiary: #3AAFA9;
+    --One-color: #253D5B;
+    --Two-color:#07883B;
+    --Three-Color: #e0fbfc;
+    --Four-color:  #FA834C;
+    --Five-color: #1a1f29;
 }
 
 .container{
-    background-color: rgba(153, 150, 150, 0.452);
+    
+    border-radius: 15px;
+    height: fit-content;
 
 }
 
@@ -28,15 +34,16 @@ html{
 .menu-items li{
     display: inline;
     list-style: none;
+    color: var(--Four-color);
     
 }
 
 .menu-items :visited{
-    color: var(--secondary);
+    color: var(--One-color);
 }
 
 .menu-items :hover{
-    color: var(--Tertiary);
+    color: var(--Two-color);
 }
 
 h1{

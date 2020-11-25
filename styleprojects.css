@@ -19,6 +19,8 @@ html{
 
 .container{
     background-color: rgba(153, 150, 150, 0.452);
+    max-width: 1500px;
+    max-height: fit-content;
 }
 
 .menu li{
@@ -52,7 +54,26 @@ h2{
 }
 .virtualpetshelter-image img{
     border-radius: 15px;
+    height: 200px;
+    width: 300px;
     width: 100%;
+    border: solid
+}
+
+.donut-debacle-image img{
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+    width: 100%;
+    border: solid;
+}
+
+.marvins-music-image img{
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+    width: 100%;
+    border: solid;
 }
 
 .socialmedia img{
